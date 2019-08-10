@@ -41,6 +41,50 @@ margin: 10px 10px 0px 10px;
 
 }
 
+#headModal{
+    font-weight: bold;
+    text-align: center;
+ }
+ 
+ 
+ .up{
+    font-weight: bold;
+ 
+ }
+ 
+ .blank{
+    width: 100%;
+    background-color: gainsboro;
+    height: 40px;
+    margin-top: 0%;
+ }
+ 
+ .blankText{
+    height: 100px; 
+    width: 100%;
+    background-color: gainsboro;
+    /* height: 40px; */
+    margin-top: 0%;
+ }
+ 
+ 
+ #sInB{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    font-weight: bold;
+    color: whitesmoke;
+ }
+ 
+ .modalFoot{
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+ #sign{
+    font-weight: bold;
+ }
+
 
 /* .centerC{
     position: absolute;

@@ -1,3 +1,7 @@
+/* .allPostsContainer{
+    display: flex;
+} */
+
 .post {
     position: relative;
     width: 90%;
@@ -7,6 +11,13 @@
     margin: 10px 10px 10px 20px;
     float:left;
     border-radius: 15px;
+    /* float: left;
+    width: 50%;
+    padding: 10px; */
+    /* display: flex; */
+    /* flex: 50%; */
+    /* padding: 10px; */
+    /* flex-wrap: nowrap; */
 }
     
 .post-left {
@@ -55,14 +66,22 @@
         /* display: none !important; */
         overflow: hidden; 
         /* text-indent: -9999px; */
+        /* text-overflow: ellipsis; */
     }
 }
 
 .allPostsContainer {
     height: 100%;
     width: 100%;
+    
 
 }
+
+/* .allPostsContainer:after{
+    content: "";
+    display: table;
+    clear: both;
+} */
 
 .bodyB {
     height: 100%;
@@ -122,3 +141,23 @@
 
 }
 
+/* #dots{
+    display: inline-block;
+    /* width: 200px; */
+    /* white-space: nowrap; */
+    /* overflow:  hidden !important;
+    text-overflow: ellipsis; */
+/* } */ 
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    /* display: inline-block; */
+    float: right;
+    padding: 1px;
+    /* bottom: 10px; */
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
