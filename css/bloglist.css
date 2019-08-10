@@ -46,19 +46,79 @@
 .post-desc{
     height: 100px;
     margin-bottom: 0 !important;
+    font-family: 'FontAwesome';
+    font-size: 15px;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    margin: 0 !important;
-    color: #fff;
-    background-color: orange;
-    background-size: 2000% 2000%;
+@media screen and (max-width: 1000px) {
+    .post-desc {
+        /* display: none !important; */
+        overflow: hidden; 
+        /* text-indent: -9999px; */
+    }
 }
+
 .allPostsContainer {
     height: 100%;
     width: 100%;
 
 }
+
+.bodyB {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    /* color: #fff; */
+    background-color: orange;
+    background-size: 2000% 2000%;
+    font-family:'FontAwesome';
+}
+
+.blank{
+    width: 100%;
+}
+
+.lineSpace{
+    float: right;
+    color: #000;
+    top: 5px;
+}
+
+.modal-body{
+    /* width: 50%; */
+    /* text-align: center; */
+
+}
+
+.modalContent{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#btnYes{
+    width: 40%;
+    left: 10px;
+    right: 30px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+}
+
+#btnNo{
+    width: 40%;
+    right: 10px;
+    float: right;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+}
+
+.modal-dialog{
+    top: 40%;
+    width: 10px;
+    /* -webkit-border-radius: 0; border-radius: 0; */
+    /* bottom: 50%; */
+
+}
+
