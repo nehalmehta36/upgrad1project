@@ -3,18 +3,16 @@
 
 </head>
 <body>
-        <div class="container">
-                <div class="first">Hello</div>
-                <div class="second">And</div>
-                <div class="third">Goodbye</div>
-                </div>
-                 <!-- $( ".container" ).click(function() {
-                $( "div.second" ).replaceWith( "<h2>New heading</h2>" );
-                } -->
+        <!-- <input type="text" id = "userComments" placeholder="Add your comments" > -->
+        <textarea  id="textBox" cols="30" rows="10"></textarea>
+    <button id= "addList" onclick="addComments()">Comment</button>
+    <div id="addEventNames"></div>
     <script>
-        $( ".container" ).click(function() {
-                $( "div.second" ).replaceWith( "<h2>New heading</h2>" );
-                }
-
+        //Enter your code here
+function addComments() {
+            var comments ="<p>" + document.getElementById("textBox").value + "</p>";
+            document.getElementById('addEventNames').innerHTML += comments;
+            // document.getElementById("userComments").placeholder = "Add your comments" ;
+        }
     </script>
 </body>
